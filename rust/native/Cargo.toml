@@ -1,0 +1,12 @@
+[package]
+name = "native-rust"
+version = "0.1.0"
+authors = ["Sebastien Chapuis <sebastien@chapu.is>"]
+
+[dependencies]
+mediumvec = "1.0.2"
+neon = "0.1.15"
+
+[lib]
+name = "nativerust"
+crate-type = ["dylib"]
